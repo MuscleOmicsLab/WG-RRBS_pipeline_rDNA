@@ -12,8 +12,8 @@ PARENT_DIR=$1
 CONDITION=$2
 SAMPLE=$3
 
-BASE_BISMARK_DIR=$PARENT_DIR/output/Bismark_alignment_output_non_directional
-BASE_METHYL_EXTRACT_DIR=$PARENT_DIR/output/Bismark_methylation_extractor_output_non_directional
+BASE_BISMARK_DIR= # Path to aligned files. 
+BASE_METHYL_EXTRACT_DIR= # Path to output files.
 
 GENOME_DIR= # PATH TO GENOME INDEXES
 
