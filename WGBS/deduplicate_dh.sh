@@ -35,7 +35,7 @@ INPUT_BAM_R2= # Condition and sample specific input directory for single-end ali
 
 echo "Processing directory: $INPUT_ALIGNED_DIR"
 
-# -------------------------ls
+# ------------------------
 # Deduplicate
 # -------------------------
 echo "=== Deduplicating the alignment ==="
