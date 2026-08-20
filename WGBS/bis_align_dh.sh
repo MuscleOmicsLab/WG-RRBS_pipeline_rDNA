@@ -33,7 +33,7 @@ TRIMMED_FAST_QC_PAIR_2=$INPUT_TRIM_DIR/*_2.fq.gz
 echo "Processing directory: $INPUT_TRIM_DIR"
 
 # -------------------------
-# 1) ALIGN UNMAPPED TO MOUSE
+# 1) ALIGN UNMAPPED TO GENOME
 # -------------------------
 echo "=== [1/3] Aligning Lambda-unmapped reads to [species] ==="
 bismark \
