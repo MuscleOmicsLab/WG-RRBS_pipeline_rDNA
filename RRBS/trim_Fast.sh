@@ -2,7 +2,7 @@
 
 echo 'hostname $HOSTNAME'
 
-module load trimgalore/0.6.6-gcc-13.2.0-python-3.11.6
+# Load modules if running on a cluster.
 
 PARENT_DIR=$1
 CONDITION=$2
