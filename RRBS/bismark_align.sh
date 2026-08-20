@@ -31,7 +31,7 @@ TRIMMED_FAST_QC_PAIR_2= # Condition and sample specific input file for pair 2
 echo "Processing directory: $INPUT_TRIM_DIR"
 
 # -------------------------
-# 1) ALIGN UNMAPPED TO MOUSE
+# 1) ALIGN UNMAPPED TO GENOME
 # -------------------------
 echo "=== Aligning reads to [species] ==="
 bismark \
