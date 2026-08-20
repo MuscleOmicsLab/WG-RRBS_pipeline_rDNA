@@ -2,7 +2,7 @@
 
 echo "hostname = $HOSTNAME"
 
-module load fastqc/0.11.9-gcc-13.2.0
+# Load Module
 
 # Inputting the parent directory, condition, and sample name as command line arguments
 PARENT_DIR=$1
