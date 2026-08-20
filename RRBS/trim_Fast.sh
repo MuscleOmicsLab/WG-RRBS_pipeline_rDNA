@@ -1,11 +1,5 @@
 #! /bin/bash
 
-# What to changes
-# 1. Parent directory 
-# 2. The sample names
-# 3. if-else loop
-# 4. Check the end of filenames.
-
 echo 'hostname $HOSTNAME'
 
 module load trimgalore/0.6.6-gcc-13.2.0-python-3.11.6
